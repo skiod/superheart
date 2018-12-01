@@ -38,7 +38,7 @@
 
             <div class="container">
 
-                <div class="row">
+                <!-- <div class="row">
 
                     <div class ="col-md-12">
                         <h2 class="contact-title">Contact us</h2>                           
@@ -89,7 +89,7 @@
 
                     </div>                    
 
-                </div> 
+                </div>  -->
 
             </div>
 
@@ -136,14 +136,7 @@
 
                     <div class="col-sm-6 wow fadeInRight">
 
-                        <h2 class="contact-title">Our Location</h2>
-
-
-                        <div class="section-google-map-block wow fadeInUp">
-
-                            <!-- <div id="map_canvas"></div> -->
-
-                        </div> <!-- end .section-content-block  -->                            
+                        <img src="images/blood-donation.jpg" />
 
                     </div> <!--  end col-sm-6  -->                    
 

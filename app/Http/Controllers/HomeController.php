@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\User;
 use App\Donor;
+use App\Compain;
 use Auth;
 use Hash;
 
@@ -39,7 +40,9 @@ class HomeController extends Controller
     }
 
     public function campaigns(){
-        return view('campaigns');
+        $campaigns = Compain::all();
+        // return $campaigns;
+        return view('campaigns')->with('campaigns',$campaigns);
     }
 
     public function contact(){

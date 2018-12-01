@@ -528,29 +528,29 @@
                     <div v-if="error != null" class="alert alert-danger">
                         <strong>Please fill all inputs ...!</strong>
                     </div>
-                    <ul class="list-group">
-                        <li class="list-group-item" v-for="(search,index) in searchs" :key="index">
-                            <div>
+                    <ul class="list-group" style="font-size:14px">
+                        <li class="list-group-item row" v-for="(search,index) in searchs" :key="index">
+                            <div style="float:left;width:15%">
                                 <span>name : </span>
                                 <span v-html="search.name"></span>
                             </div>
-                            <div>
+                            <div style="float:left;width:20%">
                                 <span>email : </span>
                                 <span v-html="search.email"></span>
                             </div>
-                            <div>
+                            <div style="float:left;width:15%">
                                 <span>blood type : </span>
-                                <span v-html="search.bloodtype"></span>
+                                <span v-html="'💉 ' + search.bloodtype"></span>
                             </div>
-                            <div>
+                            <div style="float:left;width:15%">
                                 <span>country  : </span>
                                 <span v-html="search.country"></span>
                             </div>
-                            <div>
+                            <div style="float:left;width:15%">
                                 <span>city  : </span>
                                 <span v-html="search.city"></span>
                             </div>
-                            <div>
+                            <div style="float:left;width:15%">
                                 <span>phone  : </span>
                                 <span v-html="search.phone"></span>
                             </div>
